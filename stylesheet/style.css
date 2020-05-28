@@ -1,0 +1,95 @@
+/* Design Mobile */
+
+@font-face{
+    font-family: ProductSans-Bold;
+    src: url('/fonts/ProductSans-Bold.ttf');
+}
+@font-face{
+    font-family: ProductSans;
+    src: url('/fonts/ProductSans-Medium.ttf');
+}
+h1{
+    font-family: ProductSans-Bold, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #707070;
+}
+nav{
+    text-align: center;
+}
+#logo{
+    width: 30%;
+    margin-top: 10px;
+}
+#selina{
+    width: 45vw;
+    position: fixed;
+    background-position: center center;
+    z-index: -1;
+}
+.selinaInicial{
+    text-align: center;
+}
+.story{
+    border: solid 1px #707070;
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: 1px 3px 6px rgba(0,0,0,0.16);
+    
+}
+.story1{
+    margin-top: 44%;
+}
+.story2{
+    margin-top: 4vh;
+}
+p{
+    font-family: ProductSans;
+    font-size: 100%;
+    color: #707070;
+    margin: 22px;
+}
+#jogar{
+    position: fixed;
+    z-index: 1030;
+    border: solid 1px #707070;
+    background-color: #732BE1;
+    border-radius: 34px;
+    box-shadow: 1px 3px 6px rgba(214,129,255,0.16);
+    margin-top: 75vh;
+
+}
+#jogar p{
+    color: #fff;
+    margin: 2vh 15vw;
+}
+#socialMedia{
+    width: 15vw;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+/* Design Tablet */
+
+@media (min-width:768px){
+    #logo{
+        width: 180px;
+    }
+    h1{
+        font-size: larger;
+    }
+}
+
+/* Design Desktops */ 
+@media (min-width: 1025px) {
+
+}
