@@ -2,11 +2,11 @@
 
 @font-face{
     font-family: ProductSans-Bold;
-    src: url('/fonts/ProductSans-Bold.ttf');
+    src: url('./fonts/ProductSans-Bold.ttf');
 }
 @font-face{
     font-family: ProductSans;
-    src: url('/fonts/ProductSans-Medium.ttf');
+    src: url('./fonts/ProductSans-Medium.ttf');
 }
 h1{
     font-family: ProductSans-Bold, sans-serif;
@@ -24,12 +24,10 @@ nav{
 }
 #selina{
     width: 45vw;
-    position: fixed;
-    background-position: center center;
     z-index: -1;
 }
 .selinaInicial{
-    text-align: center;
+    position: fixed;
 }
 .story{
     border: solid 1px #707070;
@@ -45,7 +43,7 @@ nav{
     margin-top: 4vh;
 }
 p{
-    font-family: ProductSans;
+    font-family: ProductSans, sans-serif;
     font-size: 100%;
     color: #707070;
     margin: 22px;
@@ -65,18 +63,32 @@ p{
     margin: 2vh 15vw;
 }
 #socialMedia{
-    width: 15vw;
-}
-.container{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    align-content: center;
+    width: 10vw;
 }
 
 footer{
     margin-top: 100px;
 }
+
+a:link {
+    color: #732BE1;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(101, 18, 224);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #732BE1;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(53, 12, 116);
+  }
 
 /* Design Tablet */
 
@@ -85,11 +97,63 @@ footer{
         width: 180px;
     }
     h1{
-        font-size: larger;
+        font-size: 3vw;
+    }
+    #selina{
+        width: 15vw;
+    }
+    #jogar p{
+        color: #fff;
+        margin: 2vh 5vw;
+    }
+    #jogar{
+        margin-top: 65vh;
+    }
+    .story1{
+        margin-top: 14%;
+    }
+    p{
+        font-size: 2vw;
+    }
+    #socialMedia{
+        width: 4vw;
+    }
+    .site{
+        padding-left: 10%;
+    }
+    .git{
+        padding-left: 10%;
     }
 }
 
 /* Design Desktops */ 
 @media (min-width: 1025px) {
-
+    h1{
+        font-size: 3vw;
+    }
+    #selina{
+        width: 15vw;
+    }
+    #jogar p{
+        color: #fff;
+        margin: 2vh 5vw;
+    }
+    #jogar{
+        margin-top: 60vh;
+    }
+    .story1{
+        margin-top: 14%;
+    }
+    p{
+        font-size: 2vw;
+    }
+    #socialMedia{
+        width: 4vw;
+    }
+    .site{
+        padding-left: 10%;
+    }
+    .git{
+        padding-left: 10%;
+    }
 }
