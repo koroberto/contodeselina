@@ -73,24 +73,85 @@ footer{
 a:link {
     color: #732BE1;
   }
-  
-  /* visited link */
-  a:visited {
+a:visited {
     color: rgb(101, 18, 224);
-  }
+ }
   
-  /* mouse over link */
-  a:hover {
+a:hover {
     color: #732BE1;
     text-decoration: none;
-  }
-  
-  /* selected link */
-  a:active {
+}
+a:active {
     color: rgb(53, 12, 116);
-  }
+}
+/* Página 2*/
+.sentimentos{
+    position: fixed;
+}
+.sentimentosImg{
+    width: 60vw;
+    z-index: -1;
+    margin-top: 10%;
+}
+.story1P2{
+    margin-top: 30%;
+}
+#jogarEscolha{
+    border: solid 1px #707070;
+    background-color: #732BE1;
+    border-radius: 18px;
+    box-shadow: 1px 3px 6px rgba(214,129,255,0.16);
+    margin-top: 4vh;
+}
+#jogarEscolha p{
+    color: #fff;
+    margin: 0;
+    font-size: 150%;
+}
+#jogarEscolha .quazeSuno{
+    font-size: 130%;
+}
+h2{
+    font-family: ProductSans-Bold, sans-serif;
+    font-size: 100%;
+    color: #707070;
+    margin: 10px 22px 22px 22px;
+}
+.storyTitulo{
+    text-align: center;
+}
+.entidades{
+    width: 20vw;
+    margin-top: 10px;
+}
+.storyLiso{
+    text-align: center;
+}
+.storyLiso h2{
+    margin: 60% 0px 0px 0px;
+}
+#iconEscolha{
+    width: 20%;
+    margin: 10px 0px;
+}
+.footerP2{
+    margin-top: 4vh;
+}
+/* Design LandScape */
 
-/* Design Tablet */
+@media (min-width:500px){
+    #selina{
+        width: 30vw;
+    }
+    #jogar{
+        margin-top: 65vh;
+    }
+    .story1{
+        margin-top: 30%;
+    }
+}
+
+  /* Design Tablet */
 
 @media (min-width:768px){
     #logo{
