@@ -2,11 +2,11 @@
 
 @font-face{
     font-family: ProductSans-Bold;
-    src: url('./fonts/ProductSans-Bold.ttf');
+    src: url('../fonts/ProductSans-Bold.ttf');
 }
 @font-face{
     font-family: ProductSans;
-    src: url('./fonts/ProductSans-Medium.ttf');
+    src: url('../fonts/ProductSans-Medium.ttf');
 }
 h1{
     font-family: ProductSans-Bold, sans-serif;
